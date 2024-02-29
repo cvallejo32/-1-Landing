@@ -1,1 +1,5 @@
 /* Here starts the begining of the landing page*/
+h1 {
+    background-color:lightgray;
+    text-align: center;
+}
