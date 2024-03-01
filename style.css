@@ -1,4 +1,7 @@
 /* Here starts the begining of the landing page*/
+.box{
+    display: flex;
+}
 h1 {
     background-color:lightgray;
     text-align: center;
