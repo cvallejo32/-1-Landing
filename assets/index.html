@@ -10,7 +10,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
     <body>
-        <!-- Here goes the  header and the navegation bar-->
+        <!-- Here goes the  header and the navegation bar to other pages and sections within the page-->
         <header>
             <nav class="navbar navbar-dark bg-dark">
                 <a class="navbar-brand" href="#">CV Portfolio</a>
@@ -43,15 +43,20 @@
         </header>
         <main>
             <!-- here goes a jumbotron with my picture and contact info including  social media links -->
-            <div class="jumbotron">
-                <h1 class="display-4">Resume Cristobal Vallejo</h1>
-                <p class="lead" id="jumbotron-sub">Mern Stack Developer</p>
-                <div>
-                    <img width="200px" src="../assets/images/Cristobal.jpg" alt="Imagen Cristobal Vallejo">
+            <div class="jumbotron jumbotron-fluid" style="background-image: url('../assets/images/Cristobal.jpg');">
+                <div class="container text-center">
+                    <h1 class="display-4">Cristobal Vallejo</h1>
+                    <p class="lead">Web Developer | MERN Stack | Python/PHP Developer | Resume</p>
+                    <hr class="my-4">
+                    <p>Experienced web developer passionate about creating responsive and user-friendly websites and applications.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">View Resume</a>
+                    <!-- Social media icons -->
+                    <div class="mt-4">
+                        <a href="https://www.linkedin.com/in/cristobal-vallejo/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/cvallejo32" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
                 </div>
-                <hr class="my-4">
             </div>
-            <br>
             <!-- Here goes the description of myself as developer -->
             <div>
                 <p>Descripcion mia</p>
