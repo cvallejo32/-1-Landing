@@ -1,7 +1,9 @@
 /* Here starts the begining of the landing page*/
-.box{
+.portfolio {
     display: flex;
+    flex-wrap: wrap;
 }
+
 h1 {
     background-color:lightgray;
     text-align: center;
