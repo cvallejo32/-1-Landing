@@ -15,7 +15,8 @@
 
 <body>
     <!-- Here goes the  header and the navegation bar to other pages and sections within the page-->
-    <header>
+    <div class="container">
+    <header  class="site-headers">
         <nav class="navbar navbar-dark bg-dark">
             <a class="navbar-brand" href="#">CV Portfolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -44,9 +45,9 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="mt-4 main">
         <!-- here goes a jumbotron with my picture and contact info including  social media links -->
-        <div class="jumbotron jumbotron-fluid" style="background-image: url('../assets/images/Cristobal.jpg');">
+        <div class="jumbotron jumbotron-fluid">
             <div class="container text-center">
                 <h1 class="display-4">Cristobal Vallejo</h1>
                 <p class="lead">Web Developer | MERN Stack | Python/PHP Developer</p>
@@ -89,41 +90,54 @@
         <br>
         <!-- Here goes the all of the portfolio projects -->
         <div class="portfolio">
-            <!-- Here goes the Landing page section -->
-            <div class="project" id="Landing">
-                <h3>#1 Resume</h3>
-                <p>This page was made using HTML5/CSS3/JS languages.</p>
-            </div>
-            <!-- Here goes the  CRUD page section -->
-            <br>
-            <div class="project" id="CRUD">
-                <h3>#2 CRUD App</h3>
-                <p>This App was made using HTML5/CSS3/JS with local storage</p>
-            </div>
-            <!-- Here goes the Dashboard page section -->
-            <br>
-            <div class="project" id="Dashboard">
-                <h3>#3 Dashboard</h3>
-                <p>This Dashboard was made using HTML5/CSS3/JS</p>
-            </div>
-            <!-- Here goes the E-commerce page section -->
-            <br>
-            <div class="project" id="E-commerce">
-                <h3>#4 E-commerce Website</h3>
-                <p>This Dashboard was made using HTML5/CSS3/JS and ReactJS/NodeJS/Express/Mongo DB/</p>
-            </div>
-            <!-- Here goes the Restaurant page section -->
-            <br>
-            <div class="project" id="Restaurant">
-                <h3>#5 Restaurant App</h3>
-                <p>This Dashboard was made using HTML5/CSS3/JS and ReactJS/PHP/Express/MySQL/</p>
-            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Resume</h5>
+                  <p class="card-text">This page was made using HTML5/CSS3/JS languages.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">CRUD App</h5>
+                  <p class="card-text">This App was made using HTML5/CSS3/JS with local storage</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dashboard</h5>
+                  <p class="card-text">This Dashboard was made using HTML5/CSS3/JS</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">E-commerce App</h5>
+                  <p class="card-text">This E-commerce App was made using HTML5/CSS3/JS and ReactJS/NodeJS/Express/Mongo DB/</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Restaurant App</h5>
+                  <p class="card-text">This Dashboard was made using HTML5/CSS3/JS and ReactJS/PHP/Express/MySQL/</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
         </div>
     </main>
     <!-- Here goes the footer section -->
-    <footer>
+    <footer class="container mt-4 footer">
         <p>copiright CV</p>
     </footer>
+    </div>
 
     <script src="../Javascript/script.js" async defer></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

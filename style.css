@@ -1,7 +1,10 @@
 /* Here starts the begining of the landing page*/
 .portfolio {
     display: flex;
-    flex-wrap: wrap;
+}
+
+.navbar-brand {
+    padding-left: 10px;
 }
 
 h1 {
